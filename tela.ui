@@ -121,7 +121,7 @@
        </widget>
       </item>
       <item row="3" column="1" alignment="Qt::AlignLeft">
-       <widget class="QRadioButton" name="radioButton_2">
+       <widget class="QRadioButton" name="radioButton_audio">
         <property name="font">
          <font>
           <family>Consolas</family>
@@ -132,12 +132,12 @@
          <string notr="true">color: rgb(255, 255, 255);</string>
         </property>
         <property name="text">
-         <string>Playlist</string>
+         <string>Áudio</string>
         </property>
        </widget>
       </item>
       <item row="2" column="1" alignment="Qt::AlignLeft">
-       <widget class="QRadioButton" name="radioButton">
+       <widget class="QRadioButton" name="radioButton_video">
         <property name="font">
          <font>
           <family>Consolas</family>
@@ -153,7 +153,7 @@
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QLabel" name="label_4">
+       <widget class="QLabel" name="label_diretorio">
         <property name="font">
          <font>
           <family>Consolas</family>

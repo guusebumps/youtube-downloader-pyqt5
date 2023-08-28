@@ -12,11 +12,11 @@ def main():
     print("Tamanho do vídeo: ", yt.length, "segundos")
     print("Avaliação do vídeo: ", yt.rating)
 
-    # Usa a maior resolucao #
-    ys = yt.streams.get_highest_resolution()
-    # ys = yt.streams.get_audio_only()
+    if tela.radioButton_video:
+        ys = yt.streams.get_highest_resolution()
+    elif tela.radioButton_audio:
+        ys = yt.streams.get_audio_only()
 
-    # Começa o Download do vídeo #
     print("Baixando...")
     ys.download(path)
     print("Download completo!")
